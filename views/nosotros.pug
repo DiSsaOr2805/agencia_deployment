@@ -1,0 +1,32 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7 
+                h1 #{pagina}
+                blockquote ipsum dolor sit amet, consectetur adipiscing elit. Cras consequat, lectus eu aliquet gravida, est lectus finibus purus, et pellentesque felis ex venenatis risus. Vestibulum ut metus odio. Nullam ultricies neque nunc, id fringilla justo mattis vitae. Donec faucibus bibendum ex non eleifend. 
+
+                p facilisi. Duis porta elementum elit id pharetra. Phasellus porta quam sit amet lectus accumsan aliquam. In at magna ipsum. Aenean eu dui porttitor, semper nibh in, dictum nibh. Vestibulum aliquet pellentesque augue, in pharetra nulla consectetur in. Cras finibus in nulla vitae imperdiet.
+
+                p mi tellus, mollis eu arcu sed, rhoncus mattis purus. Vivamus volutpat gravida turpis, pulvinar porttitor nisl feugiat ac. In aliquam euismod nibh sit amet consectetur. Cras interdum turpis id felis condimentum fermentum. Praesent vitae maximus ex, eget tristique odio. Proin ultricies placerat blandit.
+
+    .listado-iconos
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluis mb-4")
+                    h2.mb-4 Seguridad 
+                    p Praesent vitae maximus ex, eget tristique odio. Proin ultricies placerat blandit.
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluis mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Praesent vitae maximus ex, eget tristique odio. Proin ultricies placerat blandit.
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluis mb-4")
+                    h2.mb-4 Mejores Precios 
+                    p Praesent vitae maximus ex, eget tristique odio. Proin ultricies placerat blandit.
